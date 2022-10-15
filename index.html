@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <main class="card">
+      <form id="my-form" action="post">
+        <h1>Qual é o seu zodíaco?</h1>
+    
+        <div class="input-wrapper">
+          <label for="day"></label>
+          <input id="day" type="number" placeholder="Dia de nascimento" maxlength="2" required>
+        </div>
+        
+    
+        <div class="input-wrapper">
+          <label for="month"></label>
+          <input id="month" type="number" placeholder="Mês de nascimento" maxlength="2" required>
+        </div>
+      </form>
+      <footer>
+        <input class="button" type="submit" form="my-form" value="Enter" />
+      </footer>
+    </main>
+   </div>
+  
+</body>
+</html>
+
+
